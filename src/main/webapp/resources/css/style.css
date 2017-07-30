@@ -67,7 +67,7 @@ body a:hover{
     text-align: center;
 }
 .ribbon {
-    width: 23%;
+    width: 35%;
     position: relative;
     background:#CADDE1;
     height: 70px;
@@ -2437,6 +2437,9 @@ h3.hdg {
 .servc-grids {
     margin-top: 0em;
 }
+}
+.hidden {
+	display: none;
 }
 /*--//responsive-design---*/
 

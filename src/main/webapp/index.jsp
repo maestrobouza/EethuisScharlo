@@ -40,9 +40,9 @@
 			<div class="container">
 				<div class="logo">
 					<div class="ribbon">
-						<div class="ribbon-fold"><h1> <a href="index.html">Scharlo</a></h1></div>
+						<div class="ribbon-fold"><h1> <a href="index.html">Eethuis Scharlo</a></h1></div>
 					</div>
-					<h2>Eethuis Scharlo Food</h2>
+					<h2>100% Halal</h2>
 				</div>			
 				<!--navigation-->
 				<div class="top-nav">
@@ -58,10 +58,10 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-center cl-effect-14">
-								<li><a href="index.html" onclick="handleTabs();" class="active">Home</a></li>
-								<li><a href="codes.html">Menu</a></li>
-								<li><a href="gallery.html">Cart</a></li>	
-								<li><a href="contact.html">Contact</a></li>
+								<li><a onclick="handleTabs(0);" class="active">Huis</a></li>
+								<li><a onclick="handleTabs(1);">Menu</a></li>
+								<li><a onclick="handleTabs(2);">Winkelwagen</a></li>	
+								<li><a onclick="handleTabs(3);">Contact</a></li>
 							</ul>	
 							<div class="clearfix"> </div>
 						</div>	
@@ -72,86 +72,17 @@
 		</div>
 	</div>
 	<!--//banner-->
-	<!--banner-bottom-->
-	<div class="banner-bottom">
-		<div class="container">
-			<!--welcome-->
-			<div class="welcome">
-				<h3 class="title">Welcome</h3>
-				<p>Welkom bij Eethuis Scharlo Food restaurant, de specialist in Italiaanse pizza en Turkse gerechten</p>
-				<div class="welcome-info">
-					<div class="col-md-6 welcome-grids">
-						<div class="welcome-img">
-							<img src="resources/images/doner.jpg" class="img-responsive zoom-img" alt=""/>
-						</div>
-					</div>
-					<div class="col-md-6 welcome-grids">
-						<div class="welcome-img">
-							<img src="resources/images/turkish_pizza.jpeg" class="img-responsive zoom-img" alt=""/>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-<!-- 				<p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae </p>			 -->
-			</div>
-			<!--//welcome-->
-		</div>
-	</div>
-	<!--//banner-bottom-->
-	<!--//menu-->
-	<!-- testimonial -->
-	<div class="testimonial">
-		<!-- container -->
-		<div class="container">
-			<h3 class="title">About us</h3>
-			<!-- banner-text Slider starts Here -->
-			<script src="resources/js/responsiveslides.min.js"></script>
-			 <script>
-				// You can also use "$(window).load(function() {"
-					$(function () {
-					// Slideshow 4
-						$("#slider3").responsiveSlides({
-						auto: true,
-						pager:true,
-						nav:false,
-						speed: 500,
-						namespace: "callbacks",
-						before: function () {
-						$('.events').append("<li>before event fired.</li>");
-						},
-						after: function () {
-							$('.events').append("<li>after event fired.</li>");
-						}
-					});	
-				});
-			</script>
-			<!--//End-slider-script -->
-			<div  id="top" class="callbacks_container">
-				<ul class="rslides" id="slider3">
-					<li>
-						<div class="testimonial-grids">
-							<div class="testimonial-left">
-								<img src="resources/images/t1.jpg" alt="" />
-							</div>
-							<div class="testimonial-right">
-								<h5>Amgad Gandy</h5>
-								<p><span>"</span> Chef-kok Amgad heeft een 30-jarige ervaring in Italiaanse en Turkse keuken. Het heeft de lachende en gastvrije karakter, waardoor u zich thuis voelt<span>"</span>
-								</p>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!-- //container -->
-	</div>
-	<!-- //testimonial -->
+	<%@include file="../WEB-INF/views/Welcome.html" %>
+	<%@include file="../WEB-INF/views/Menu.html" %>
+	<%@include file="../WEB-INF/views/Cart.html" %>
+	<%@include file="../WEB-INF/views/Contact.html" %>
+
+
 	<!--footer-->
 	<div class="footer">
 		<div class="container">
 			<div class="col-md-3 footer-left">
-				<h4>Address</h4>
+				<h4>Adres</h4>
 				<ul>
 					<li>Eethuis Scharlo</li>
 					<li>Scharlo 32</li>
@@ -160,7 +91,7 @@
 				</ul>				
 			</div>
 			<div class="col-md-3 footer-left">
-				<h4>Popular</h4>
+				<h4>Populaire</h4>
 				<ul>
 					<li><a href="#">Kapsalon</a></li>
 					<li><a href="#">Broodjes</a></li>
@@ -169,11 +100,11 @@
 				</ul>
 			</div>
 			<div class="col-md-3 footer-left">
-		 		<h4>Details</h4>
+		 		<h4>Nuttige links</h4>
 				<ul>
-					<li><a href="about.html">Home</a></li>
+					<li><a href="about.html">Huis</a></li>
 					<li><a href="#">Menu</a></li>
-					<li><a href="#">Cart</a></li>
+					<li><a href="#">Winkelwagen</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
@@ -193,5 +124,30 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="resources/js/bootstrap.js"></script>
+    <script>
+    function handleTabs(divRef) {
+        if (divRef === 0){
+        	$('#welcome').removeClass('hidden');
+        	$('#menu').addClass('hidden');
+        	$('#cart').addClass('hidden');
+        	$('#contact').addClass('hidden');
+        }else if (divRef === 1){
+        	$('#welcome').addClass('hidden');
+        	$('#menu').removeClass('hidden');
+        	$('#cart').addClass('hidden');
+        	$('#contact').addClass('hidden');
+        }else if (divRef === 2){
+        	$('#welcome').addClass('hidden');
+        	$('#menu').addClass('hidden');
+        	$('#cart').removeClass('hidden');
+        	$('#contact').addClass('hidden');
+        }else if (divRef === 3){
+        	$('#welcome').addClass('hidden');
+        	$('#menu').addClass('hidden');
+        	$('#cart').addClass('hidden');
+        	$('#contact').removeClass('hidden');
+        }
+    }
+    </script>
 </body>
 </html>

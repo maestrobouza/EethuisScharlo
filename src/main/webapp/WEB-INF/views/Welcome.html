@@ -1,0 +1,75 @@
+<div id="welcome">
+	<div class="banner-bottom">
+		<div class="container">
+			<!--welcome-->
+			<div class="welcome">
+				<h3 class="title">Welkom</h3>
+				<p>Welkom bij Eethuis Scharlo Food restaurant, de specialist in Italiaanse pizza en Turkse gerechten</p>
+				<div class="welcome-info">
+					<div class="col-md-6 welcome-grids">
+						<div class="welcome-img">
+							<img src="resources/images/doner.jpg" class="img-responsive zoom-img" alt=""/>
+						</div>
+					</div>
+					<div class="col-md-6 welcome-grids">
+						<div class="welcome-img">
+							<img src="resources/images/turkish_pizza.jpeg" class="img-responsive zoom-img" alt=""/>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+<!-- 				<p>Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae </p>			 -->
+			</div>
+			<!--//welcome-->
+		</div>
+	</div>
+	<!--//banner-bottom-->
+	<!--//menu-->
+	<!-- testimonial -->
+	<div class="testimonial">
+		<!-- container -->
+		<div class="container">
+			<h3 class="title">Informatie</h3>
+			<!-- banner-text Slider starts Here -->
+			<script src="resources/js/responsiveslides.min.js"></script>
+			 <script>
+				// You can also use "$(window).load(function() {"
+					$(function () {
+					// Slideshow 4
+						$("#slider3").responsiveSlides({
+						auto: true,
+						pager:true,
+						nav:false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});	
+				});
+			</script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="testimonial-grids">
+							<div class="testimonial-left">
+								<img src="resources/images/t1.jpg" alt="" />
+							</div>
+							<div class="testimonial-right">
+								<h5>Amgad Gandy</h5>
+								<p><span>"</span> Chef-kok Amgad heeft een 30-jarige ervaring in Italiaanse en Turkse keuken. Het heeft de lachende en gastvrije karakter, waardoor u zich thuis voelt<span>"</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+</div>
