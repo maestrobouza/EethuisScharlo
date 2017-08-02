@@ -1,0 +1,917 @@
+[{ 
+  "categoryId" : 0,
+  "categoryName" : "Salades, Rijst & Sopen",
+  "active": 1,
+  "menuItems" : [{ "name" : "Gemengde Salade",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3.95,
+                   "active": 1},
+                   
+                   { "name" : "Griekse Salade",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4.5,
+                   "active": 1},
+                   
+                   { "name" : "Tonijn Salade",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4.5,
+                   "active": 1},
+                   
+                   { "name" : "Witte Rijst",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3,
+                   "active": 1},
+                   
+                   { "name" : "Linzensoep",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3.5,
+                   "active": 1},
+                   
+                   { "name" : "Tomatensoep",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3.5,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 1,
+  "categoryName" : "Kapsalon",
+  "active": 1,
+  "menuItems" : [{ "name" : "Kapsalon Klein",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 5,
+                   "active": 1},
+                   
+                   { "name" : "Kapsalon Groot",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 7,
+                   "active": 1},
+                   
+                   { "name" : "Kapsalon Klein Shoarma",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 6,
+                   "active": 1},
+                   
+                   { "name" : "Kapsalon Groot Shoarma",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8,
+                   "active": 1},
+                   
+                   { "name" : "Döner Box",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4.95,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 2,
+  "categoryName" : "Broodjes",
+  "active": 1,
+  "menuItems" : [{ "name" : "Döner Klein",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 5,
+                   "active": 1},
+                   
+                   { "name" : "Döner Groot",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 6,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Klein",  
+                   "description"  : "Lams",
+                   "ingredients" : "",
+                   "price" : 5.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Klein",  
+                   "description"  : "Kip",
+                   "ingredients" : "",
+                   "price" : 5.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Groot",  
+                   "description"  : "Lams",
+                   "ingredients" : "",
+                   "price" : 7,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Groot",  
+                   "description"  : "Kip",
+                   "ingredients" : "",
+                   "price" : 7,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Speciaal",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma met Kaas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma met Turksbrood",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8,
+                   "active": 1},
+                   
+                   { "name" : "Kofte",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 6,
+                   "active": 1},
+                   
+                   { "name" : "Falafel",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4.5,
+                   "active": 1},
+                   
+                   { "name" : "Pita Kaas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2.5,
+                   "active": 1},
+                   
+                   { "name" : "Pita Ham & Kaas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3.5,
+                   "active": 1},
+                   
+                   { "name" : "Pita Gezond",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4,
+                   "active": 1},
+                   
+                   { "name" : "Pita Hawai",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3.75,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 3,
+  "categoryName" : "Turkse Pizza's & Durum",
+  "active": 1,
+  "menuItems" : [{ "name" : "Dürüm Döner",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 5,
+                   "active": 1},
+                   
+                   { "name" : "Dürüm Shoarma",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 5.5,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza Salade",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza",  
+                   "description"  : "Salade apart",
+                   "ingredients" : "",
+                   "price" : 3.5,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza Kaas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza Döner met Kaas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 6,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza Döner",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 5.5,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza Vegetarisch",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza met Feta",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 4.5,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza met Feta en Döner",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 6.5,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza Shoarma",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 6.25,
+                   "active": 1},
+                   
+                   { "name" : "Turkse Pizza Shoarma Kaas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 7.25,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 4,
+  "categoryName" : "Extra's",
+  "active": 1,
+  "menuItems" : [{ "name" : "Patat per portie",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2,
+                   "active": 1},
+                   
+                   { "name" : "Saus",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 0.5,
+                   "active": 1},
+                   
+                   { "name" : "Pita",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 0.5,
+                   "active": 1},
+                   
+                   { "name" : "Turksbrood",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 0.75,
+                   "active": 1}
+                   ] 
+}, 
+
+{ 
+  "categoryId" : 5,
+  "categoryName" : "Schotels",
+  "active": 1,
+  "menuItems" : [{ "name" : "Döner Kebab",  
+                   "description"  : "kip of kalf",
+                   "ingredients" : "",
+                   "price" : 9.95,
+                   "active": 1},
+                   
+                   { "name" : "Döner Speciaal",  
+                   "description"  : "kip of kalf",
+                   "ingredients" : "",
+                   "price" : 10.95,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Lams",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Kip",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Speciaal",  
+                   "description"  : "kip of lams",
+                   "ingredients" : "",
+                   "price" : 13.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Ananas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 13,
+                   "active": 1},
+                   
+                   { "name" : "Adana Kebab",  
+                   "description"  : "2 spiezen",
+                   "ingredients" : "",
+                   "price" : 9.95,
+                   "active": 1},
+                   
+                   { "name" : "Kofte Kebab",  
+                   "description"  : "lamsgehakt",
+                   "ingredients" : "",
+                   "price" : 9.95,
+                   "active": 1},
+                   
+                   { "name" : "Lamskotelet",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.95,
+                   "active": 1},
+                   
+                   { "name" : "Shaslick",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.5,
+                   "active": 1},
+                   
+                   { "name" : "Spare-ribs",  
+                   "description"  : "kalfsvlees",
+                   "ingredients" : "",
+                   "price" : 10.95,
+                   "active": 1},
+                   
+                   { "name" : "Spare-ribs Hot",  
+                   "description"  : "kalfsvlees",
+                   "ingredients" : "",
+                   "price" : 12.5,
+                   "active": 1},
+                   
+                   { "name" : "Spare-ribs Ananas",  
+                   "description"  : "kalfsvlees",
+                   "ingredients" : "",
+                   "price" : 13.5,
+                   "active": 1},
+                   
+                   { "name" : "Biefstuk",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 17,
+                   "active": 1},
+                   
+                   { "name" : "T-Bone Steak",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 20,
+                   "active": 1},
+                   
+                   { "name" : "Hamburger",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Falafel",  
+                   "description"  : "vegetarisch",
+                   "ingredients" : "",
+                   "price" : 8.95,
+                   "active": 1},
+                   
+                   { "name" : "Zalm",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 15.75,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 6,
+  "categoryName" : "Kip Schotels",
+  "active": 1,
+  "menuItems" : [{ "name" : "Halfe Kip",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 9,
+                   "active": 1},
+                   
+                   { "name" : "Gegrilde Kipfilet",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.5,
+                   "active": 1},
+                   
+                   { "name" : "Kipfilet Speciaal",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 13,
+                   "active": 1},
+                   
+                   { "name" : "Kipfilet Ananas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.5,
+                   "active": 1},
+                   
+                   { "name" : "Kippenpoten",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 9.95,
+                   "active": 1},
+                   
+                   { "name" : "Kipschnitzel",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 10,
+                   "active": 1},
+                   
+                   { "name" : "Hot Wings",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 9.95,
+                   "active": 1},
+                   
+                   { "name" : "Kipsaté",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 10.95,
+                   "active": 1},
+                   
+                   { "name" : "Kipsaté Ananas",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.50,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 7,
+  "categoryName" : "Kinder Schotels",
+  "active": 1,
+  "menuItems" : [{ "name" : "Kindermenu Döner",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Kindermenu Shoarma",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Kindermenu Hamburger",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 7,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 8,
+  "categoryName" : "Mix Schotels",
+  "active": 1,
+  "menuItems" : [{ "name" : "Shoarma & Kebab",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 13.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma & Shaslick",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 13.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma & Kipfilet",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 13.5,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma & Spare-ribs",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 14,
+                   "active": 1},
+                   
+                   { "name" : "Döner Kebab",  
+                   "description"  : "kip en kalf",
+                   "ingredients" : "",
+                   "price" : 12,
+                   "active": 1},
+                   
+                   { "name" : "Döner Kebab & Spare-ribs",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 12.5,
+                   "active": 1},
+                   
+                   { "name" : "Mix Cairo",  
+                   "description"  : "Shoarma, kebab en shalslick",
+                   "ingredients" : "",
+                   "price" : 15,
+                   "active": 1},
+                   
+                   { "name" : "Mix Alkmaar",  
+                   "description"  : "kebab en kofte",
+                   "ingredients" : "",
+                   "price" : 11.95,
+                   "active": 1},
+                   
+                   { "name" : "Mix Scharlo",  
+                   "description"  : "kebab, kofte en shalslick",
+                   "ingredients" : "",
+                   "price" : 13.50,
+                   "active": 1},
+                   
+                   { "name" : "Mix AZ",  
+                   "description"  : "kebab, shoarma en kipfilet",
+                   "ingredients" : "",
+                   "price" : 15.50,
+                   "active": 1},
+                   
+                   { "name" : "Mix Alexandria",  
+                   "description"  : "kip, kalf döner en spare-ribs",
+                   "ingredients" : "",
+                   "price" : 13.50,
+                   "active": 1},
+                   
+                   { "name" : "Mix Luxor",  
+                   "description"  : "shoarma, kofte en döner",
+                   "ingredients" : "",
+                   "price" : 13.50,
+                   "active": 1},
+                   
+                   { "name" : "Mix 1 persoon",  
+                   "description"  : "shoarma, kofte, kipfilet en spare-ribs",
+                   "ingredients" : "",
+                   "price" : 16.50,
+                   "active": 1},
+                   
+                   { "name" : "Mix 2 persoons",  
+                   "description"  : "shoarma, kebab, shalslick en spare-ribs",
+                   "ingredients" : "",
+                   "price" : 26.50,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 9,
+  "categoryName" : "Nagerecht",
+  "active": 1,
+  "menuItems" : [{ "name" : "Baklava",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 3,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 10,
+  "categoryName" : "Pizza's Vegetarisch",
+  "active": 1,
+  "menuItems" : [{ "name" : "Margherita",  
+                   "description"  : "tomaat en kaas",
+                   "ingredients" : "",
+                   "price" : 6,
+                   "active": 1},
+                   
+                   { "name" : "Funghi",  
+                   "description"  : "tomaat, kaas en champignons",
+                   "ingredients" : "",
+                   "price" : 7,
+                   "active": 1},
+                   
+                   { "name" : "Cipollo",  
+                   "description"  : "tomaat, kaas en uien",
+                   "ingredients" : "",
+                   "price" : 6.5,
+                   "active": 1},
+                   
+                   { "name" : "Peperoni",  
+                   "description"  : "tomaat, kaas en paprika",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Ananas",  
+                   "description"  : "tomaat, kaas en ananas",
+                   "ingredients" : "",
+                   "price" : 6.5,
+                   "active": 1},
+                   
+                   { "name" : "Gorgonzola",  
+                   "description"  : "tomaat, kaas, champignons en gorgonzola kaas",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Quattro Formaggi",  
+                   "description"  : "tomaat en vier soorten kaas",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Vegetarisch",  
+                   "description"  : "tomaat, kaas, champignons, paprika en olijven",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 11,
+  "categoryName" : "Pizza's Met Vlees",
+  "active": 1,
+  "menuItems" : [{ "name" : "Borromea",  
+                   "description"  : "tomaat, kaas en ham",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Salami",  
+                   "description"  : "tomaat, kaas en salami",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Bibo",  
+                   "description"  : "tomaat, kaas, ham en salami",
+                   "ingredients" : "",
+                   "price" : 8,
+                   "active": 1},
+                   
+                   { "name" : "Peperoni",  
+                   "description"  : "tomaat, kaas en paprika",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Santa Maria",  
+                   "description"  : "tomaat, kaas, champignons en ham",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Gorgonzola",  
+                   "description"  : "tomaat, kaas, champignons en gorgonzola kaas",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Capricciosa",  
+                   "description"  : "tomaat, kaas, ham, champignons en salami",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Quattro Stagioni",  
+                   "description"  : "tomaat, kaas, ham, salami, champignons en paprika",
+                   "ingredients" : "",
+                   "price" : 9,
+                   "active": 1},
+                   
+                   { "name" : "Contadina",  
+                   "description"  : "tomaat, kaas, champignons, ham en ei",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Zingaro",  
+                   "description"  : "tomaat, kaas, champignons, salami en ei",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Hawai",  
+                   "description"  : "tomaat, kaas, ham en ananas",
+                   "ingredients" : "",
+                   "price" : 8,
+                   "active": 1},
+                   
+                   { "name" : "Roma",  
+                   "description"  : "tomaat, kaas, champignons paprika, uien en salami",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Pollo",  
+                   "description"  : "tomaat, kaas en kip",
+                   "ingredients" : "",
+                   "price" : 9,
+                   "active": 1},
+                   
+                   { "name" : "Pollo Speciaal",  
+                   "description"  : "tomaat, kaas, uien, chmpignons, paprika en kip",
+                   "ingredients" : "",
+                   "price" : 10,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma",  
+                   "description"  : "tomaat, kaas en shoarma",
+                   "ingredients" : "",
+                   "price" : 9,
+                   "active": 1},
+                   
+                   { "name" : "Shoarma Speciaal",  
+                   "description"  : "tomaat, kaas, champignons, paprika, ui en shoarma",
+                   "ingredients" : "",
+                   "price" : 10,
+                   "active": 1},
+                   
+                   { "name" : "Döner",  
+                   "description"  : "tomaat, kaas en döner",
+                   "ingredients" : "",
+                   "price" : 8,
+                   "active": 1},
+                   
+                   { "name" : "Fantasia",  
+                   "description"  : "tomaat, kaas, shoarma, kip, ham en salami",
+                   "ingredients" : "",
+                   "price" : 10.5,
+                   "active": 1},
+                   
+                   { "name" : "Calzone Shoarma (dichtgevouwen)",  
+                   "description"  : "tomaat, kaas, champignons, paprika, uien en shoarma",
+                   "ingredients" : "",
+                   "price" : 9.5,
+                   "active": 1},
+                   
+                   { "name" : "Calzone (dichtgevouwen)",  
+                   "description"  : "tomaat, kaas, champignons, paprika, uien, ham en salami",
+                   "ingredients" : "",
+                   "price" : 9.5,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 12,
+  "categoryName" : "Pizza's Met Vis",
+  "active": 1,
+  "menuItems" : [{ "name" : "Napolitana",  
+                   "description"  : "tomaat, kaas, ansjovis en olijven",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Tonno",  
+                   "description"  : "tomaat, kaas, uien en tonijn",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Zalm",  
+                   "description"  : "tomaat, kaas en zalm",
+                   "ingredients" : "",
+                   "price" : 8.5,
+                   "active": 1},
+                   
+                   { "name" : "Frutti di Mare",  
+                   "description"  : "tomaat, kaas, tonijn, ansjovis, mosselen, garnalen en inktvis",
+                   "ingredients" : "",
+                   "price" : 9.5,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 13,
+  "categoryName" : "Kinder Pizza's",
+  "active": 1,
+  "menuItems" : [{ "name" : "Margherita",  
+                   "description"  : "tomaat en kaas",
+                   "ingredients" : "",
+                   "price" : 5,
+                   "active": 1},
+                   
+                   { "name" : "Ananas",  
+                   "description"  : "tomaat, kaas en ananas",
+                   "ingredients" : "",
+                   "price" : 5.5,
+                   "active": 1},
+                   
+                   { "name" : "Donald Duck",  
+                   "description"  : "tomaat, kaas en salami",
+                   "ingredients" : "",
+                   "price" : 5.5,
+                   "active": 1},
+                   
+                   { "name" : "Mickey Mouse",  
+                   "description"  : "tomaat, kaas  en ham",
+                   "ingredients" : "",
+                   "price" : 5.5,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 14,
+  "categoryName" : "Pasta's",
+  "active": 1,
+  "menuItems" : [{ "name" : "Spaghetti Bolognese",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 6.5,
+                   "active": 1},
+                   
+                   { "name" : "Spaghetti Quattro Formaggi",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Spaghetti Tonno",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 7.5,
+                   "active": 1},
+                   
+                   { "name" : "Spaghetti Napolitana",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 5.95,
+                   "active": 1},
+                   
+                   { "name" : "Spaghetti Frutti di Mare",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8.95,
+                   "active": 1},
+                   
+                   { "name" : "Lasagne",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 8.95,
+                   "active": 1}
+                   ] 
+},
+
+{ 
+  "categoryId" : 15,
+  "categoryName" : "Pasta's",
+  "active": 1,
+  "menuItems" : [{ "name" : "Cola",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2.5,
+                   "active": 1},
+                   
+                   { "name" : "Fanta",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2.5,
+                   "active": 1},
+                   
+                   { "name" : "Sprite",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2.5,
+                   "active": 1},
+                   
+                   { "name" : "Diverse blikjes",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2,
+                   "active": 1},
+                   
+                   { "name" : "Ayran",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 1.5,
+                   "active": 1},
+                   
+                   { "name" : "Red Bull",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2.5,
+                   "active": 1},
+                   
+                   { "name" : "Koffie",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 2,
+                   "active": 1},
+                   
+                   { "name" : "Thee",  
+                   "description"  : "",
+                   "ingredients" : "",
+                   "price" : 1.55,
+                   "active": 1}
+                   ] 
+}]
