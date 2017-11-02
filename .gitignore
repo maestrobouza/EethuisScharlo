@@ -1,14 +1,13 @@
 # Ignored files
-*.class
-*.jar
-*.lst
-*/target/
-*.class
-target/*
-*.class
-/bin/
-/WebContent/
-
-*.project
-.settings
-.classpath
+#*.class
+#*.jar
+#*.lst
+#*/target/
+#*.class
+#target/*
+#*.class
+#/bin/
+#/WebContent/
+#*.project
+#.settings
+#.classpath

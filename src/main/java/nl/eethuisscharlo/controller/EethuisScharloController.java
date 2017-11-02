@@ -12,8 +12,11 @@ import javax.json.JsonObject;
 import javax.json.JsonReader;
 import javax.json.JsonValue;
 
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -35,57 +38,90 @@ public class EethuisScharloController {
 		return mv;
 	}
 	
-	public static void main(String[] args) {
+	@RequestMapping(value = "/menu", 
+					produces = MediaType.APPLICATION_JSON_VALUE, 
+					consumes = MediaType.APPLICATION_JSON_VALUE,
+					method = RequestMethod.GET,
+					headers="Accept=*/*")
+	public @ResponseBody List<CategoryItem> getMenu() {
+		List<CategoryItem> categories = new ArrayList<CategoryItem>();
+		try{
+			MenuDataBuilder menuDataBuilder = new MenuDataBuilder();
+			categories = menuDataBuilder.getCategories();
+		}catch (Exception e) {
+			System.out.println(e);
+		}
+		return categories;
+	}
+	
+
+	public List<CategoryItem> getCategories() {
 
 
         InputStream fis = null;
 		try {
 			fis = new FileInputStream("src/main/resources/menu.json");
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
 		}
 
         JsonReader reader = Json.createReader(fis);
-
         JsonArray menuArray = reader.readArray();
         
         List<CategoryItem> catItems = buildCategoryItems(menuArray);
-
         reader.close();
 
-//        System.out.println("Name   : " + personObject.getString("name"));
-//        System.out.println("Age    : " + personObject.getInt("age"));
-//        System.out.println("Married: " + personObject.getBoolean("isMarried"));
-//
-//        JsonObject addressObject = personObject.getJsonObject("address");
-//        System.out.println("Address: ");
-//        System.out.println(addressObject.getString("street"));
-//        System.out.println(addressObject.getString("zipCode"));
-//
-//        System.out.println("Phone  : ");
-//        JsonArray phoneNumbersArray = personObject.getJsonArray("phoneNumbers");
-//
-//        for (JsonValue jsonValue : phoneNumbersArray) {
-//            System.out.println(jsonValue.toString());
-//        }
-
+        return catItems;
 	}
 
-	private static List<CategoryItem> buildCategoryItems(JsonArray menuArray) {
+	private List<CategoryItem> buildCategoryItems(JsonArray menuArray) {
 		List<CategoryItem> result = new ArrayList<CategoryItem>();
 		
 		for (int i = 0; i < menuArray.size(); i++){
-			JsonValue jsonValue = menuArray.get(i);
+			JsonValue jsonCat = menuArray.get(i);
 			
-			CategoryItem categoryItem = buildCategoryItem(jsonValue);
-			result.add(categoryItem);
+			CategoryItem categoryItem = buildCategoryItem(jsonCat);
+			if (categoryItem.isActive()){
+				result.add(categoryItem);
+			}
 		}
 		
 		return result;
 	}
 
-	private static CategoryItem buildCategoryItem(JsonValue jsonValue) {
-		// TODO Auto-generated method stub
-		return null;
+	private CategoryItem buildCategoryItem(JsonValue jsonCat) {
+		CategoryItem categoryItem = new CategoryItem();
+		JsonObject jsonCatObj = jsonCat.asJsonObject();
+		categoryItem.setCategoryId(new Long(jsonCatObj.getInt("categoryId")));
+		categoryItem.setCategoryName(jsonCatObj.getString("categoryName"));
+		categoryItem.setActive(jsonCatObj.getInt("active") == 1);
+		List<DishItem> dishItems = buildMenuItems(jsonCatObj.getJsonArray("menuItems"));
+		categoryItem.setMenuItems(dishItems);
+		return categoryItem;
+	}
+
+	private List<DishItem> buildMenuItems(JsonArray menuItems) {
+		List<DishItem> dishItems = new ArrayList<DishItem>();
+		
+		for (int i = 0; i < menuItems.size(); i++){
+			JsonObject jsonMenuItem = menuItems.get(i).asJsonObject();
+			
+			DishItem dishItem = buildMenuItem(jsonMenuItem);
+
+			if (dishItem.isActive()){
+				dishItems.add(dishItem );
+			}
+		}
+		return dishItems;
+	}
+
+	private DishItem buildMenuItem(JsonObject jsonMenuItem) {
+		DishItem dishItem = new DishItem();
+		dishItem.setActive(jsonMenuItem.getInt("active") == 1);
+		dishItem.setName(jsonMenuItem.getString("name"));
+		dishItem.setDescription(jsonMenuItem.getString("description"));
+		dishItem.setIngredients(jsonMenuItem.getString("ingredients"));
+		dishItem.setPrice(new Double(jsonMenuItem.getInt("price")));
+		return dishItem;
 	}
 }

@@ -18,6 +18,24 @@
 <script src="resources/js/modernizr.custom.js"></script>
 <!-- //js -->
 <script>
+var menuItems;
+$.ajax( {
+	type:'Get',
+	contentType : "application/json",
+	dataType : 'json',
+	url:'http://localhost:8080/EethuisScharlo/menu',
+	success:function(data) {
+	 menuItems = JSON.stringify(data);
+	},
+	error : function(e) {
+		console.log("ERROR: ", e);
+	},
+	done : function(e) {
+		console.log("DONE");
+	}
+
+	});
+
 	$(document).ready(function () {
 	    size_li = $("#myList li").size();
 	    x=1;
@@ -112,7 +130,7 @@
 				<p> © 2017 Eethuis Scharlo . All rights reserved</a></p>
 				<div class="icons">
 				<ul>
-					<li><a href="https://www.facebook.com/search/top/?q=scharlo%20food" class="twitter facebook"> </a></li>
+					<li><a href="https://www.facebook.com/Scharlo-food-1698619000390160/" class="twitter facebook"> </a></li>
 				</ul>
 			</div>
 			</div>
