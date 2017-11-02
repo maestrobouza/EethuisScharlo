@@ -25,7 +25,7 @@ $.ajax( {
 	dataType : 'json',
 	url:'http://localhost:8080/EethuisScharlo/menu',
 	success:function(data) {
-	 menuItems = JSON.stringify(data);
+	 menuItems = data;
 	},
 	error : function(e) {
 		console.log("ERROR: ", e);
